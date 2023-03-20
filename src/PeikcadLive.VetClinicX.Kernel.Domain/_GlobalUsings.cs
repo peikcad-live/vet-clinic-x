@@ -1,0 +1,1 @@
+global using PeikcadLive.VetClinicX.Shared.Domain;

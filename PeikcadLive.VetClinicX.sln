@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = " Build", " Build", "{6DC75C36-8F72-4219-AF75-11C12B915C0C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeikcadLive.VetClinicX.Shared.Domain", "src\PeikcadLive.VetClinicX.Shared.Domain\PeikcadLive.VetClinicX.Shared.Domain.csproj", "{21F24BA6-F350-4C45-9108-436806CC6102}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{837168D9-0138-42A8-A9B6-63E8AE56AF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeikcadLive.VetClinicX.Core.Domain", "src\PeikcadLive.VetClinicX.Core.Domain\PeikcadLive.VetClinicX.Core.Domain.csproj", "{12B3670C-68B1-458D-88CF-24C0DEAB3832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeikcadLive.VetClinicX.Kernel.Domain", "src\PeikcadLive.VetClinicX.Kernel.Domain\PeikcadLive.VetClinicX.Kernel.Domain.csproj", "{96AFAFD8-7FA0-4BB4-BC04-C57ECF65F093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeikcadLive.VetClinicX.Core.Api", "src\PeikcadLive.VetClinicX.Core.Api\PeikcadLive.VetClinicX.Core.Api.csproj", "{56F3E2FC-5937-4374-B1A4-B04BF7C3F068}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = " Dev", " Dev", "{EE92F48D-7C7C-4BE3-9B67-8C572C0211C2}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = " Meta", " Meta", "{3D69854A-A54A-4546-B182-6345CFC7EB76}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21F24BA6-F350-4C45-9108-436806CC6102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F24BA6-F350-4C45-9108-436806CC6102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F24BA6-F350-4C45-9108-436806CC6102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F24BA6-F350-4C45-9108-436806CC6102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B3670C-68B1-458D-88CF-24C0DEAB3832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B3670C-68B1-458D-88CF-24C0DEAB3832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B3670C-68B1-458D-88CF-24C0DEAB3832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B3670C-68B1-458D-88CF-24C0DEAB3832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AFAFD8-7FA0-4BB4-BC04-C57ECF65F093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AFAFD8-7FA0-4BB4-BC04-C57ECF65F093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AFAFD8-7FA0-4BB4-BC04-C57ECF65F093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AFAFD8-7FA0-4BB4-BC04-C57ECF65F093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F3E2FC-5937-4374-B1A4-B04BF7C3F068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F3E2FC-5937-4374-B1A4-B04BF7C3F068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F3E2FC-5937-4374-B1A4-B04BF7C3F068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F3E2FC-5937-4374-B1A4-B04BF7C3F068}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12B3670C-68B1-458D-88CF-24C0DEAB3832} = {837168D9-0138-42A8-A9B6-63E8AE56AF00}
+		{56F3E2FC-5937-4374-B1A4-B04BF7C3F068} = {837168D9-0138-42A8-A9B6-63E8AE56AF00}
+	EndGlobalSection
+EndGlobal
